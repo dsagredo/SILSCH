@@ -2,19 +2,14 @@ import React from 'react';
 import { Button, Image, Text, TouchableOpacity, View } from 'react-native';
 import styles from './Login.module.ts';
 import TextField from '../../components/TextField.tsx';
+import Logo from '../../assets/images/logo.png';
 
 const LoginScreen = (): JSX.Element => {
   return (
     <>
       <View style={styles.container}>
         <View style={styles.contentImg}>
-          <Image
-            source={{
-              uri: 'https://raw.githubusercontent.com/wix/react-native-ui-lib/master/demo/src/assets/images/card-example.jpg',
-            }}
-            width={100}
-            height={100}
-          />
+          <Image source={Logo} style={styles.contentLogo} />
         </View>
         <View style={styles.contentForm}>
           <TextField
