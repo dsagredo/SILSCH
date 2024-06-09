@@ -10,6 +10,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 25,
   },
+  contentLogo: {
+    width: 100,
+    height: 100,
+  },
   contentForm: {
     display: 'flex',
     flexDirection: 'column',
