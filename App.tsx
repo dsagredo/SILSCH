@@ -1,7 +1,8 @@
 import { KeyboardAvoidingView, SafeAreaView } from 'react-native';
 import React, { useEffect } from 'react';
 import SplashScreen from 'react-native-splash-screen';
-import LoginScreen from './src/screens/Login/LoginScreen';
+import OptionsScreen from './src/screens/Options/OptionsScreen';
+//import LoginScreen from './src/screens/Login/LoginScreen';
 import styles from './src/globals/globals.module';
 
 const App = (): JSX.Element => {
@@ -18,7 +19,8 @@ const App = (): JSX.Element => {
         behavior="padding"
         enabled
         keyboardVerticalOffset={100}>
-        <LoginScreen />
+        <OptionsScreen />
+        {/*<LoginScreen />*/}
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
