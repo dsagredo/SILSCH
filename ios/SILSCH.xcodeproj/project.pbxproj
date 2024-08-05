@@ -31,8 +31,8 @@
 		7FD104E52C42ED34001DE369 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD104D12C42ED34001DE369 /* SimpleLineIcons.ttf */; };
 		7FD104E62C42ED34001DE369 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD104D22C42ED34001DE369 /* Zocial.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A50FFB94BF5AAB3CA2DD7025 /* libPods-SILSCH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B31DBEE85E1E92E7F1396D43 /* libPods-SILSCH.a */; };
-		DEE7C6EEEDA26D0803C42048 /* libPods-SILSCH-SILSCHTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E959A4F5B6429B82FE22F5 /* libPods-SILSCH-SILSCHTests.a */; };
+		CDBCB7156EF334A0D7D86A27 /* libPods-SILSCH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 595756C3E453B4A3FFB27482 /* libPods-SILSCH.a */; };
+		E53541E42E490A77EF990880 /* libPods-SILSCH-SILSCHTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9AA68D8D4E239B6E43D732 /* libPods-SILSCH-SILSCHTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SILSCH/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SILSCH/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SILSCH/main.m; sourceTree = "<group>"; };
-		3DAE840DD55E4E9DCF824129 /* Pods-SILSCH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH.release.xcconfig"; path = "Target Support Files/Pods-SILSCH/Pods-SILSCH.release.xcconfig"; sourceTree = "<group>"; };
-		67C503F1008465A2B47E874A /* Pods-SILSCH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH.debug.xcconfig"; path = "Target Support Files/Pods-SILSCH/Pods-SILSCH.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA377226B9C9D6E167A61F8 /* Pods-SILSCH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH.debug.xcconfig"; path = "Target Support Files/Pods-SILSCH/Pods-SILSCH.debug.xcconfig"; sourceTree = "<group>"; };
+		595756C3E453B4A3FFB27482 /* libPods-SILSCH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SILSCH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EAD0873D0C5D9DB53E57E4 /* Pods-SILSCH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH.release.xcconfig"; path = "Target Support Files/Pods-SILSCH/Pods-SILSCH.release.xcconfig"; sourceTree = "<group>"; };
 		7FD104C02C42ED34001DE369 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
 		7FD104C12C42ED34001DE369 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		7FD104C22C42ED34001DE369 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
@@ -77,13 +78,10 @@
 		7FD104D12C42ED34001DE369 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		7FD104D22C42ED34001DE369 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SILSCH/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		883126338D3E9A11AAF3FA8B /* Pods-SILSCH-SILSCHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH-SILSCHTests.release.xcconfig"; path = "Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests.release.xcconfig"; sourceTree = "<group>"; };
-		8F2410D3671B642983339935 /* Pods-SILSCHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCHTests.release.xcconfig"; path = "Target Support Files/Pods-SILSCHTests/Pods-SILSCHTests.release.xcconfig"; sourceTree = "<group>"; };
-		90E959A4F5B6429B82FE22F5 /* libPods-SILSCH-SILSCHTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SILSCH-SILSCHTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B31DBEE85E1E92E7F1396D43 /* libPods-SILSCH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SILSCH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B72E810FCE3CCF58B5601F0B /* Pods-SILSCHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCHTests.debug.xcconfig"; path = "Target Support Files/Pods-SILSCHTests/Pods-SILSCHTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE6B86D6E7C8F80625DBEAD2 /* Pods-SILSCH-SILSCHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH-SILSCHTests.debug.xcconfig"; path = "Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests.debug.xcconfig"; sourceTree = "<group>"; };
+		886822379BE8677CB5BC05E8 /* Pods-SILSCH-SILSCHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH-SILSCHTests.release.xcconfig"; path = "Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests.release.xcconfig"; sourceTree = "<group>"; };
+		94DC58773332C157ED4066B4 /* Pods-SILSCH-SILSCHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILSCH-SILSCHTests.debug.xcconfig"; path = "Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE9AA68D8D4E239B6E43D732 /* libPods-SILSCH-SILSCHTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SILSCH-SILSCHTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE7C6EEEDA26D0803C42048 /* libPods-SILSCH-SILSCHTests.a in Frameworks */,
+				E53541E42E490A77EF990880 /* libPods-SILSCH-SILSCHTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50FFB94BF5AAB3CA2DD7025 /* libPods-SILSCH.a in Frameworks */,
+				CDBCB7156EF334A0D7D86A27 /* libPods-SILSCH.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B31DBEE85E1E92E7F1396D43 /* libPods-SILSCH.a */,
-				90E959A4F5B6429B82FE22F5 /* libPods-SILSCH-SILSCHTests.a */,
+				595756C3E453B4A3FFB27482 /* libPods-SILSCH.a */,
+				EE9AA68D8D4E239B6E43D732 /* libPods-SILSCH-SILSCHTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,12 +206,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				67C503F1008465A2B47E874A /* Pods-SILSCH.debug.xcconfig */,
-				3DAE840DD55E4E9DCF824129 /* Pods-SILSCH.release.xcconfig */,
-				B72E810FCE3CCF58B5601F0B /* Pods-SILSCHTests.debug.xcconfig */,
-				8F2410D3671B642983339935 /* Pods-SILSCHTests.release.xcconfig */,
-				BE6B86D6E7C8F80625DBEAD2 /* Pods-SILSCH-SILSCHTests.debug.xcconfig */,
-				883126338D3E9A11AAF3FA8B /* Pods-SILSCH-SILSCHTests.release.xcconfig */,
+				4EA377226B9C9D6E167A61F8 /* Pods-SILSCH.debug.xcconfig */,
+				59EAD0873D0C5D9DB53E57E4 /* Pods-SILSCH.release.xcconfig */,
+				94DC58773332C157ED4066B4 /* Pods-SILSCH-SILSCHTests.debug.xcconfig */,
+				886822379BE8677CB5BC05E8 /* Pods-SILSCH-SILSCHTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -225,12 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SILSCHTests" */;
 			buildPhases = (
-				4D495E402815C7A8243228C3 /* [CP] Check Pods Manifest.lock */,
+				4D14A9BAC436C1991F51326E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				06BBC71207313A8EE5206DD2 /* [CP] Embed Pods Frameworks */,
-				4AC6A340EA499C658545B6BB /* [CP] Copy Pods Resources */,
+				90E91D32F8F33FF113F6851A /* [CP] Embed Pods Frameworks */,
+				E019DD3A17835C283EAD90D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,13 +242,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SILSCH" */;
 			buildPhases = (
-				B1B184F6C1543DBF74161978 /* [CP] Check Pods Manifest.lock */,
+				8BBDC2255EDB6F88A196447E /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0508AA2917A22ECA872331B2 /* [CP] Embed Pods Frameworks */,
-				EDF7CF496B6C2348081AD851 /* [CP] Copy Pods Resources */,
+				5258F450216D2506CE739714 /* [CP] Embed Pods Frameworks */,
+				FABC10189C5A64394C9F7C38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,58 +350,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0508AA2917A22ECA872331B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILSCH/Pods-SILSCH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILSCH/Pods-SILSCH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILSCH/Pods-SILSCH-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		06BBC71207313A8EE5206DD2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4AC6A340EA499C658545B6BB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D495E402815C7A8243228C3 /* [CP] Check Pods Manifest.lock */ = {
+		4D14A9BAC436C1991F51326E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,7 +372,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1B184F6C1543DBF74161978 /* [CP] Check Pods Manifest.lock */ = {
+		5258F450216D2506CE739714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILSCH/Pods-SILSCH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILSCH/Pods-SILSCH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILSCH/Pods-SILSCH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBDC2255EDB6F88A196447E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,7 +411,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EDF7CF496B6C2348081AD851 /* [CP] Copy Pods Resources */ = {
+		90E91D32F8F33FF113F6851A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E019DD3A17835C283EAD90D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILSCH-SILSCHTests/Pods-SILSCH-SILSCHTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABC10189C5A64394C9F7C38 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,7 +495,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE6B86D6E7C8F80625DBEAD2 /* Pods-SILSCH-SILSCHTests.debug.xcconfig */;
+			baseConfigurationReference = 94DC58773332C157ED4066B4 /* Pods-SILSCH-SILSCHTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -526,7 +522,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 883126338D3E9A11AAF3FA8B /* Pods-SILSCH-SILSCHTests.release.xcconfig */;
+			baseConfigurationReference = 886822379BE8677CB5BC05E8 /* Pods-SILSCH-SILSCHTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -550,7 +546,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67C503F1008465A2B47E874A /* Pods-SILSCH.debug.xcconfig */;
+			baseConfigurationReference = 4EA377226B9C9D6E167A61F8 /* Pods-SILSCH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -577,7 +573,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DAE840DD55E4E9DCF824129 /* Pods-SILSCH.release.xcconfig */;
+			baseConfigurationReference = 59EAD0873D0C5D9DB53E57E4 /* Pods-SILSCH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
